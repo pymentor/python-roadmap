@@ -1,5 +1,7 @@
 # PyMentor Landing Page
 
+Currently hosted on GitHub pages: https://pymentor.github.io/pymentor-landing-page/dist
+
 ### Steps to build
 
 - `npm install` - downloads all required deps
