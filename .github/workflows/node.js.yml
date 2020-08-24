@@ -27,6 +27,5 @@ jobs:
         git remote set-url origin https://$USERNAME:$REPO_KEY@github.com/$REPO_PATH.git
         git config --local user.email "artem.pronevskiy@gmail.com"
         git config --local user.name "artempronevskiy"
-        git add .
-        git commit -m "update info"
-        git push https://$USERNAME:$REPO_KEY@github.com/$REPO_PATH.git $GITHUB_REF
+        git commit -am "update info"
+        git push
