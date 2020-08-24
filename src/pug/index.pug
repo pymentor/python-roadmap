@@ -1,0 +1,271 @@
+doctype html
+html(lang='en')
+
+    head
+
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        meta(name='description', content='')
+        meta(name='author', content='')
+
+        title Python Mentoring
+
+        link(rel='icon', type='image/x-icon', href='assets/img/favicon.ico')
+
+        // Font Awesome icons (free version)
+        script(src='https://use.fontawesome.com/releases/v5.13.0/js/all.js', crossorigin='anonymous')
+
+        // Google fonts
+        link(href='https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700', rel='stylesheet', type='text/css')
+        link(href='https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i', rel='stylesheet', type='text/css')
+
+        // Core theme CSS (includes Bootstrap)
+        link(href='css/styles.css', rel='stylesheet')
+
+    body#page-top
+
+        // Navigation
+        nav#sideNav.navbar.navbar-expand-lg.navbar-dark.bg-primary.fixed-top
+            a.navbar-brand.js-scroll-trigger(href='#page-top')
+                span.d-block.d-lg-none Clarence Taylor
+                span.d-none.d-lg-block
+                    img.img-fluid.img-profile.rounded-circle.mx-auto.mb-2(src='assets/img/python.png', alt='python')
+            button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarSupportedContent', aria-controls='navbarSupportedContent', aria-expanded='false', aria-label='Toggle navigation')
+                span.navbar-toggler-icon
+            #navbarSupportedContent.collapse.navbar-collapse
+                ul.navbar-nav
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#env_setup') 0. Настройка среды разработки на компьютере
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#introduction') 1. Введение
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#advanced') 2. Продолжение
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#web_and_frameworks') 3. Веб, веб-фреймворки и сервера
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#db_and_orm') 4. Базы данных, SQL и ORM
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#patterns') 5. Паттерны проектирования и архитектура
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#tests') 6. Тесты и качество кода
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#devops_intro') 7. Развертывание кода, Git, CI/CD и контейнеризация (Docker)
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#os_and_linux') 8. Операционные системы, Linux
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#da_and_ml') 9. Анализ данных и машинное обучение
+        // Page Content
+        .container-fluid.p-0
+
+            // Env & IDE setup
+            section#env_setup.resume-section
+                .resume-section-content
+                    h3
+                        span.text-primary Настройка окружения и среды разработки
+                    .subheading.mb-5
+                        | Установка
+                        a(href='https://ru.wikipedia.org/wiki/Python' target='_blank') интерпретатора Python 3
+                        |,
+                        a(href='https://en.wikipedia.org/wiki/Integrated_development_environment' target='_blank') среды разработки (IDE)
+                        | и подготовка к работе с ними
+                    p.lead.mb-5
+                        a(href='https://www.python.org/downloads/' target='_blank') Скачать Python 3 с официального сайта
+                        br
+                        | Кликнуть на желтую кнопку "Download Python 3.*.*", скачать и затем установить
+                    p.lead.mb-5
+                        a(href='https://www.jetbrains.com/pycharm/download/#section=windows' target='_blank') Скачать IDE PyCharm
+                        br
+                        | Выбрать Community версию (она бесплатная), скачать и затем установить
+                    p.lead.mb-5
+                        a(href='https://www.youtube.com/watch?v=uWLwvhbbEe4' target='_blank') Установка и настройка среды разработки (IDE) PyCharm в Windows
+                        br
+                        | Видео, 13 минут
+            hr.m-0
+
+            // Introduction
+            section#introduction.resume-section
+                .resume-section-content
+                    h3
+                        span.text-primary Введение
+                    .subheading.mb-5
+                        | Основы синтаксиса языка и его основные механизмы
+                    p.lead.mb-5
+                        a(href='https://stepik.org/course/67/syllabus' target='_blank') 1) Программирование на Python 3
+                        br
+                        | Интерактивный видео-курс. 28 уроков, 4 часа видео, 27 тестов, 44 интерактивных задания
+                    p.lead.mb-5
+                        a(href='https://www.twirpx.com/file/2745265/' target='_blank') 2) "Как устроен Python. Гид для разработчиков, программистов и интересующихся" Мэтт Харрисон
+                        br
+                        | Книга в формате pdf, 272 с. Для закрепления знаний полученных в курсе "Программирование на Python 3". Скачивание доступно после регистрации на сайте
+            hr.m-0
+
+            // Advanced
+            section#advanced.resume-section
+                .resume-section-content
+                    h3
+                        span.text-primary Продолжение
+                    .subheading.mb-5
+                        | Углубленное изучение механизмов языка и особенностей интерпретатора Python
+                    p.lead.mb-5
+                        a(href='https://stepik.org/course/512/promo#toc' target='_blank') 3) Python: основы и применение
+                        br
+                        | Интерактивный видео-курс. 20 уроков, 5 часа видео, 26 тестов, 36 интерактивных задания
+                    p.lead.mb-5
+                        a(href='http://flibusta.site/b/546313/download' target='_blank') 4) "Чистый Python. Тонкости программирования для профи" Дэн Бейдер
+                        br
+                        | Книга в формате pdf, 288 с. Для закрепления знаний полученных в курсе "Python: основы и применение". Скачивание доступно по прямой ссылке
+                    p.lead.mb-5
+                        a(href='https://stepik.org/course/431/promo' target='_blank') 5) Решение задач после пройденных курсов
+                        br
+                        | Интерактивный задачник-тренажер, который предлагает задачи, основываясь на результатах решения предыдущих задач
+            hr.m-0
+
+            // Web and Frameworks
+            section#web_and_frameworks.resume-section
+                .resume-section-content
+                    h3
+                        span.text-primary Веб, фреймворки и сервера
+                    .subheading.mb-5
+                        | Веб-технологии, популярные фреймворки и веб-сервера
+                    p.lead.mb-5
+                        a(href='https://stepik.org/course/154/' target='_blank') 6) Основы Веб-технологий и введение в фреймворк Django
+                        br
+                        | Что такое веб, как работает архитектура клиент-сервер, какие используются протоколы, а также как работать с разметкой и стилями (HTML/CSS), и введение в фреймворк Django.
+                    p.lead.mb-5
+                        a(href='https://htmlacademy.ru' target='_blank') 7) Топовый онлайн курс по HTML/CSS
+                        br
+                        | Интерактивные уроки по верстке. Перейти на сайт и нажать на зеленую кнопку "Начать учиться". Очень много бесплатного очень годного материала
+                    p.lead.mb-5
+                        a(href='https://www.youtube.com/playlist?list=PLA0M1Bcd0w8yrxtwgqBvT6OM4HkOU3xYn' target='_blank') 8) Уроки по фреймворку Flask
+                        br
+                        | 23 видео урока. Плейлист
+                    p.lead.mb-5
+                        a(href='https://oz.by/books/more10503103.html' target='_blank') 9) "Разработка веб-приложений с использованием Flask на языке Python" Мигель Гринберг
+                        br
+                        | Книга, 272 с. Введение в фреймворк Flask и разработка на нем блога с пользователями, БД и регистрацией
+                    p.lead.mb-5
+                        a(href='https://www.youtube.com/watch?v=1Tp5TV3BVWE' target='_blank') 9) Что такое веб-сервера и для чего они нужны
+                        br
+                        | Видео, 1 час 26 минут. Лекция идет в контексте ОС Linux и ее деталей, но пока это можно игнорировать, и вникать только в общую концепцию
+            hr.m-0
+
+            // Db and ORM
+            section#db_and_orm.resume-section
+                .resume-section-content
+                    h3
+                        span.text-primary Базы данных, SQL и ORM
+                    .subheading.mb-5
+                        | Введение с системы управления базами данных, язык SQL и то, как с этим всем принято работать в настоящее время
+                    p.lead.mb-5
+                        a(href='https://stepik.org/course/2614/promo' target='_blank') 9) Базы данных
+                        br
+                        | Интерактивный видео-курс. 22 уроков, 5 часа видео, 100 тестов
+                    p.lead.mb-5
+                        a(href='https://stepik.org/course/1240/promo' target='_blank') 10) Введение в базы данных
+                        br
+                        | Интерактивный видео-курс, затрагивающий ORM. 23 уроков, 7 часа видео, 80 тестов
+                    p.lead.mb-5
+                        a(href='https://stepik.org/course/63054/promo' target='_blank') 11) Интерактивный тренажер по SQL
+                        br
+                        | Для закрепления пройденного материала. Интерактивный задачник-тренажер
+                    p.lead.mb-5
+                        a(href='https://lectureswww.readthedocs.io/6.www.sync/2.codding/9.databases/2.sqlalchemy/' target='_blank') 11) ORM в Python: Sqlalchemy
+                        br
+                        | Введение в SQLAlchemy, лекции
+                    p.lead.mb-5
+                        a(href='https://www.youtube.com/watch?v=PAKJpfxeXjc' target='_blank') 12) Вебинар про Sqlalchemy
+                        br
+                        | Видео, 1 час 26 минут
+            hr.m-0
+
+            // Design patterns
+            section#patterns.resume-section
+                .resume-section-content
+                    h3
+                        span.text-primary Паттерны (шаблоны) проектирования и архитектура приложения
+                    .subheading.mb-5
+                        | Введение в архитектуру приложения и популярные шаблоны проектирования
+                    p.lead.mb-5
+                        a(href='https://stepik.org/course/2614/promo' target='_blank') 9) "Python на практике" М. Саммерфилд
+                        br
+                        | Книга, 338 с. Детальный разбор всех популярных паттернов с примерами кода на Python. Много примеров, очень много
+                    p.lead.mb-5
+                        a(href='https://github.com/faif/python-patterns' target='_blank') 14) Паттерны с примерами кода и описанием
+                        br
+                        | Github репозиторий
+            hr.m-0
+
+            // Tests and code quality
+            section#tests.resume-section
+                .resume-section-content
+                    h3
+                        span.text-primary Unit-тесты и статические анализаторы кода. PEP-8
+                    .subheading.mb-5
+                        | Тестирование кода, сканирование кода на соответствие стандарту PEP-8
+                    p.lead.mb-5
+                        a(href='https://www.youtube.com/watch?v=EBMXOsCL9AA' target='_blank') 15) Pytests: введение в автотесты
+                        br
+                        | Видео, 1 час 35 минут. Вебинар по pytests в Python 3
+                    p.lead.mb-5
+                        a(href='https://www.youtube.com/watch?v=Ynrwk5OLI5Q' target='_blank') 16) Использование модуля Unittests
+                        br
+                        | Видео, 35 минут. Урок по модулю unittests в Python 3
+                    p.lead.mb-5
+                        a(href='https://proglib.io/p/python-code-analysis/' target='_blank') 17) Статический анализ кода
+                        br
+                        | Справочник по статическим анализаторам кода в Python 3
+                    p.lead.mb-5
+                        a(href='https://pythonworld.ru/osnovy/pep-8-rukovodstvo-po-napisaniyu-koda-na-python.html' target='_blank') 18) Стандарт PEP-8
+                        br
+                        | Справочник по стандарту PEP-8
+            hr.m-0
+
+            // DevOps intro
+            section#devops_intro.resume-section
+                .resume-section-content
+                    h3
+                        span.text-primary Unit-тесты и статические анализаторы кода. PEP-8
+                    .subheading.mb-5
+                        | Тестирование кода, сканирование кода на соответствие стандарту PEP-8
+                    p.lead.mb-5
+                        a(href='https://www.youtube.com/watch?v=EBMXOsCL9AA' target='_blank') 15) Pytests: введение в автотесты
+                        br
+                        | Видео, 1 час 35 минут. Вебинар по pytests в Python 3
+                    p.lead.mb-5
+                        a(href='https://www.youtube.com/watch?v=Ynrwk5OLI5Q' target='_blank') 16) Использование модуля Unittests
+                        br
+                        | Видео, 35 минут. Урок по модулю unittests в Python 3
+            hr.m-0
+
+            // OS and Linux
+            section#os_and_linux.resume-section
+                .resume-section-content
+                    h2.mb-5 Interests
+                    p
+                        | Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.
+                    p.mb-0
+                        | When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.
+
+            hr.m-0
+
+            // DA and ML
+            section#da_and_ml.resume-section
+                .resume-section-content
+                    h2.mb-5 Interests
+                    p
+                        | Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.
+                    p.mb-0
+                        | When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.
+
+            hr.m-0
+
+
+    // Bootstrap core JS
+        script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js')
+        script(src='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js')
+
+        // Third party plugin JS
+        script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js')
+
+        // Core theme JS
+        script(src='js/scripts.js')
