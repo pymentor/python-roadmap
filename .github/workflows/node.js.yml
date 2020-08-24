@@ -23,3 +23,6 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - run: npm install
     - run: npm run build
+    - run: git add .
+    - run: git commit -m "update info"
+    - run: git push https://$USERNAME:$REPO_KEY@github.com/$REPO_PATH.git $GITHUB_REF  
