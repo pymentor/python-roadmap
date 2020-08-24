@@ -24,6 +24,7 @@ jobs:
     - run: npm install
     - run: npm run build
     - run: |
+        git remote set-url origin https://$USERNAME:$REPO_KEY@github.com/$REPO_PATH.git
         git config --local user.email "artem.pronevskiy@gmail.com"
         git config --local user.name "artempronevskiy"
         git add .
