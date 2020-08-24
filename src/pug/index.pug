@@ -29,6 +29,8 @@ html(lang='en')
             #navbarSupportedContent.collapse.navbar-collapse
                 ul.navbar-nav
                     li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#main') Главная
+                    li.nav-item
                         a.nav-link.js-scroll-trigger(href='#env_setup') 0. Настройка среды разработки на компьютере
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#introduction') 1. Введение
@@ -51,7 +53,7 @@ html(lang='en')
 
         // Page Content
         .container-fluid.p-0
-            section.resume-section
+            section#main.resume-section
                 .resume-section-content
                     h3
                         span.text-primary Привет! Это Python Mentoring
