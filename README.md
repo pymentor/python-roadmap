@@ -10,4 +10,4 @@ Currently hosted on GitHub pages: https://pymentor.github.io/pymentor-landing-pa
 
 ### License and Copyright
 
-Project is based on [startbootstrap-resume](https://github.com/StartBootstrap/startbootstrap-resume) project under  the [MIT](https://github.com/StartBootstrap/startbootstrap-resume/blob/gh-pages/LICENSE) license.
+Project landing page is based on [startbootstrap-resume](https://github.com/StartBootstrap/startbootstrap-resume) project under  the [MIT](https://github.com/StartBootstrap/startbootstrap-resume/blob/gh-pages/LICENSE) license.
