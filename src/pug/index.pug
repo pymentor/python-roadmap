@@ -56,15 +56,17 @@ html(lang='en')
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#tests') 5. Модульные (unit) тесты и качество кода
                     li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#qa_automation') 6. Автоматизированное тестирование (QA automation)
+                        a.nav-link.js-scroll-trigger(href='#async') 6. Асинхронное программирование
                     li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#algo') 7. Алгоритмы и структуры данных
+                        a.nav-link.js-scroll-trigger(href='#qa_automation') 7. Автоматизированное тестирование (QA automation)
                     li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#patterns') 8. Паттерны (шаблоны) проектирования
+                        a.nav-link.js-scroll-trigger(href='#algo') 8. Алгоритмы и структуры данных
                     li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#da_and_ml') 9. Анализ данных и машинное обучение
+                        a.nav-link.js-scroll-trigger(href='#patterns') 9. Паттерны (шаблоны) проектирования
                     li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#os_cicd_linux') 10. Операционные системы, Linux, CI/CD
+                        a.nav-link.js-scroll-trigger(href='#da_and_ml') 10. Анализ данных и машинное обучение
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#os_cicd_linux') 11. Операционные системы, Linux, CI/CD
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#streams') 📣 Менторские стримы
                     li.nav-item
@@ -251,6 +253,31 @@ html(lang='en')
                         | Справочник по статическим анализаторам кода в Python 3
             hr.m-0
 
+            // Async programming
+            section#async.resume-section
+                .resume-section-content
+                    h3
+                        span.text-primary Асинхронное программирование
+                    .subheading.mb-5
+                        | Использование модуля asyncio. Корутины, событийный цикл и кооперативная многозадачность
+                    p.lead.mb-5
+                        a(href='https://www.youtube.com/watch?v=6KTjxQd1zjM' target='_blank') 23) Асинхронный Python глазами начинающего
+                        br
+                        | Видео-доклад, 21 минута. Введение в концепцию асинхронного программирования
+                    p.lead.mb-5
+                        a(href='https://www.youtube.com/watch?v=ZGfv_yRLBiY&list=PLlWXhlUMyooawilqK4lPXRvxtbYiw34S8' target='_blank') 24) Уроки по асинхронному программированию на Python от Олега Молчанова
+                        br
+                        | Плейлист, 8 видеоуроков. Врядли найдете лучше
+                    p.lead.mb-5
+                        a(href='https://habr.com/ru/post/337420/' target='_blank') 25) AsyncIO для практикующего python-разработчика
+                        br
+                        | Статья. Содержит разбор основных терминов и понятий из мира asyncio, а также многочисленные примеры кода
+                    p.lead.mb-5
+                        a(href='https://docs.python.org/3/library/asyncio-task.html#coroutine' target='_blank') 26) Описание работы с asyncio от разработчиков Python
+                        br
+                        | Страница из официальной документации (PEP 3156). Содержит большое количество примеров кода с использованием asyncio
+            hr.m-0
+
             // QA automation
             section#qa_automation.resume-section
                 .resume-section-content
@@ -259,15 +286,15 @@ html(lang='en')
                     .subheading.mb-5
                         | Автоматизированное тестирование пользовательских интерфейсов веб-приложений
                     p.lead.mb-5
-                        a(href='https://www.youtube.com/watch?v=ooIjmhCpooU' target='_blank') 23) Что такое автоматизация тестирования
+                        a(href='https://www.youtube.com/watch?v=ooIjmhCpooU' target='_blank') 27) Что такое автоматизация тестирования
                         br
                         | Видео, 51 минута.
                     p.lead.mb-5
-                        a(href='https://training.by/#!/News/265?lang=ru' target='_blank') 24) Путь тестировщика: с чего начинать изучение автоматизации
+                        a(href='https://training.by/#!/News/265?lang=ru' target='_blank') 28) Путь тестировщика: с чего начинать изучение автоматизации
                         br
                         | Статья.
                     p.lead.mb-5
-                        a(href='https://stepik.org/course/575/promo' target='_blank') 25) Автоматизация тестирования с помощью Selenium и Python
+                        a(href='https://stepik.org/course/575/promo' target='_blank') 29) Автоматизация тестирования с помощью Selenium и Python
                         br
                         | Интерактивные видео уроки. 26 уроков, 80 тестов, 6 заданий
 
@@ -281,23 +308,23 @@ html(lang='en')
                     .subheading.mb-5
                         | Источники для самостоятельного изучения алрогитмов и структур данных
                     p.lead.mb-5
-                        a(href='https://ru.pdfdrive.com/%D0%93%D1%80%D0%BE%D0%BA%D0%B0%D0%B5%D0%BC-%D0%B0%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC%D1%8B-d186671794.html' target='_blank') 26) "Грокаем алгоритмы" Адитья Бхаргава
+                        a(href='https://ru.pdfdrive.com/%D0%93%D1%80%D0%BE%D0%BA%D0%B0%D0%B5%D0%BC-%D0%B0%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC%D1%8B-d186671794.html' target='_blank') 30) "Грокаем алгоритмы" Адитья Бхаргава
                         br
                         | Книга, 290 с. Отличная книга для начинающих с примерами кода на Python. Доступна для скачивания на сайте
                     p.lead.mb-5
-                        a(href='https://www.piter.com/collection/all/product/klassicheskie-zadachi-computer-science-na-yazyke-python' target='_blank') 27) "Классические задачи Computer Science на языке Python" Девид Копец
+                        a(href='https://www.piter.com/collection/all/product/klassicheskie-zadachi-computer-science-na-yazyke-python' target='_blank') 31) "Классические задачи Computer Science на языке Python" Девид Копец
                         br
                         | Книга, 256 с. В книге разобраны наиболее известные задачи CS с примерами кода на Python
                     p.lead.mb-5
-                        a(href='https://stepik.org/course/1547/promo' target='_blank') 28) Алгоритмы: теория и практика. Структуры данных
+                        a(href='https://stepik.org/course/1547/promo' target='_blank') 32) Алгоритмы: теория и практика. Структуры данных
                         br
                         | Интерактивные видео-уроки. 11 уроков, 17 интерактивных заданий
                     p.lead.mb-5
-                        a(href='https://stepik.org/course/217/promo' target='_blank') 29) Алгоритмы: теория и практика. Методы
+                        a(href='https://stepik.org/course/217/promo' target='_blank') 33) Алгоритмы: теория и практика. Методы
                         br
                         | Интерактивные видео-уроки. 47 уроков, 21 интерактивных заданий, 10 тестов
                     p.lead.mb-5
-                        a(href='https://stepik.org/course/55971/promo' target='_blank') 30) Базовый курс по структурам данных
+                        a(href='https://stepik.org/course/55971/promo' target='_blank') 34) Базовый курс по структурам данных
                         br
                         | Интерактивные видео-уроки. 55 уроков, 187 тестов, 98 интерактивных заданий
             hr.m-0
@@ -310,11 +337,15 @@ html(lang='en')
                     .subheading.mb-5
                         | Введение в архитектуру приложения и популярные шаблоны проектирования
                     p.lead.mb-5
-                        a(href='https://stepik.org/course/2614/promo' target='_blank') 31) "Python на практике" М. Саммерфилд
+                        a(href='https://stepik.org/course/2614/promo' target='_blank') 35) "Python на практике" М. Саммерфилд
                         br
                         | Книга, 338 с. Детальный разбор всех популярных паттернов с примерами кода на Python. Много примеров, очень много
                     p.lead.mb-5
-                        a(href='https://github.com/faif/python-patterns' target='_blank') 32) Паттерны с примерами кода и описанием
+                        a(href='https://www.piter.com/product/sekrety-python-pro' target='_blank') 36) "Секреты Python Pro" Д. Хиллард
+                        br
+                        | Книга, 320 с. Книга рассказывает, как правильно и эффективно писать код и как должны быть архитектурно построены программы
+                    p.lead.mb-5
+                        a(href='https://github.com/faif/python-patterns' target='_blank') 37) Паттерны с примерами кода и описанием
                         br
                         | Github репозиторий
             hr.m-0
@@ -327,36 +358,36 @@ html(lang='en')
                     .subheading.mb-5
                         | Теория и работа с фреймворками
                     p.lead.mb-5
-                        a(href='https://vas3k.ru/blog/machine_learning/' target='_blank') 33) Машинное обучение простыми словами
+                        a(href='https://vas3k.ru/blog/machine_learning/' target='_blank') 38) Машинное обучение простыми словами
                         br
                         strong Шикарнейшая
                         | статья на тему что такое машинное обучение, где применяется и с чего начать изучение
                     p.lead.mb-5
-                        a(href='https://stepik.org/course/4852/promo' target='_blank') 34) Введение в Data Science и машинное обучение
+                        a(href='https://stepik.org/course/4852/promo' target='_blank') 39) Введение в Data Science и машинное обучение
                         br
                         | Интерактивные видео-уроки. 30 уроков, 9 часов видео, 54 теста, 21 интерактивное задание
                     p.lead.mb-5
-                        a(href='https://stepik.org/course/401/promo' target='_blank') 35) Нейронные сети
+                        a(href='https://stepik.org/course/401/promo' target='_blank') 40) Нейронные сети
                         br
                         | Интерактивные видео-уроки. 24 урока, 6 часов видео, 90 тестов, 27 интерактивных заданий
                     p.lead.mb-5
-                        a(href='https://stepik.org/course/8057/promo' target='_blank') 36) Машинное обучение
+                        a(href='https://stepik.org/course/8057/promo' target='_blank') 41) Машинное обучение
                         br
                         | Интерактивные видео-уроки. 71 урок, 7 часов видео, 68 тестов
                     p.lead.mb-5
-                        a(href='https://www.coursera.org/specializations/machine-learning-data-analysis' target='_blank') 37) Машинное обучение и анализ данных
+                        a(href='https://www.coursera.org/specializations/machine-learning-data-analysis' target='_blank') 42) Машинное обучение и анализ данных
                         br
                         | Специализация на Coursera от Yandex и МФТИ
                     p.lead.mb-5
-                        a(href='https://praktikum.yandex.ru/data-scientist/' target='_blank') 38) Анализ данных
+                        a(href='https://praktikum.yandex.ru/data-scientist/' target='_blank') 43) Анализ данных
                         br
                         | Интерактивный курс от Яндекса. Платный
                     p.lead.mb-5
-                        a(href='https://karpov.courses/' target='_blank') 39) Анализ данных
+                        a(href='https://karpov.courses/' target='_blank') 44) Анализ данных
                         br
                         | Курс от Анатолия Карпова (@mail.ru). Платный
                     p.lead.mb-5
-                        a(href='https://oz.by/books/more10641687.html' target='_blank') 40) "Python для сложных задач. Наука о данных и машинное обучение" Дж. Вандер Плас
+                        a(href='https://oz.by/books/more10641687.html' target='_blank') 45) "Python для сложных задач. Наука о данных и машинное обучение" Дж. Вандер Плас
                         br
                         | Книга, 576 с. Справочник по библиотека и фреймворкам для анализа данных и машинного обучения на Python
             hr.m-0
@@ -369,35 +400,35 @@ html(lang='en')
                     .subheading.mb-5
                         | Современные ОС и Linux
                     p.lead.mb-5
-                        a(href='https://stepik.org/course/762/promo' target='_blank') 41) Основы Linux
+                        a(href='https://stepik.org/course/762/promo' target='_blank') 46) Основы Linux
                         br
                         | Интерактивные видео-уроки. 34 урока, 147 тестов, 18 интерактивных заданий
                     p.lead.mb-5
-                        a(href='https://oz.by/books/more10471254.html' target='_blank') 42) "Внутренее устройство Linux" Брайан Уорд
+                        a(href='https://oz.by/books/more10471254.html' target='_blank') 47) "Внутренее устройство Linux" Брайан Уорд
                         br
                         | Топовая книга! 384 с.
                     p.lead.mb-5
-                        a(href='http://padabum.com/x.php?id=17307' target='_blank') 43) "Сетевые операционные системы" Олифер В.Г.
+                        a(href='http://padabum.com/x.php?id=17307' target='_blank') 48) "Сетевые операционные системы" Олифер В.Г.
                         br
                         | Книга, 544 с. Скачивание по прямой ссылке
                     p.lead.mb-5
-                        a(href='https://www.youtube.com/watch?v=7S1ndRRht6M' target='_blank') 44) Что такое CI/CD (непрерывная интеграция и доставка)
+                        a(href='https://www.youtube.com/watch?v=7S1ndRRht6M' target='_blank') 49) Что такое CI/CD (непрерывная интеграция и доставка)
                         br
                         | Видео, 9 минут
                     p.lead.mb-5
-                        a(href='https://www.youtube.com/watch?v=7SM8GLArTDY' target='_blank') 45) Сравнение существующих систем CI/CD
+                        a(href='https://www.youtube.com/watch?v=7SM8GLArTDY' target='_blank') 50) Сравнение существующих систем CI/CD
                         br
                         | Видео, 15 минут
                     p.lead.mb-5
-                        a(href='https://www.youtube.com/watch?v=cyb10iplv7U&list=PLg5SS_4L6LYvQbMrSuOjTL1HOiDhUE_5a' target='_blank') 46) Уроки по Jenkins с нуля
+                        a(href='https://www.youtube.com/watch?v=cyb10iplv7U&list=PLg5SS_4L6LYvQbMrSuOjTL1HOiDhUE_5a' target='_blank') 51) Уроки по Jenkins с нуля
                         br
                         | Видео уроки. Плейлист
                     p.lead.mb-5
-                        a(href='https://www.youtube.com/watch?v=QvlWcxECzE8&list=RDCMUCemtVTjKhD_GcEOQ_rNOrRw' target='_blank') 47) Ansible: быстрый старт
+                        a(href='https://www.youtube.com/watch?v=QvlWcxECzE8&list=RDCMUCemtVTjKhD_GcEOQ_rNOrRw' target='_blank') 52) Ansible: быстрый старт
                         br
                         | Вебинар, 1 час 43 мин
                     p.lead.mb-5
-                        a(href='https://www.youtube.com/watch?v=QF4ZF857m44' target='_blank') 48) Основы Docker. Большой практический выпуск
+                        a(href='https://www.youtube.com/watch?v=QF4ZF857m44' target='_blank') 53) Основы Docker. Большой практический выпуск
                         br
                         | Видео урок. 1 час 25 минут
             hr.m-0
