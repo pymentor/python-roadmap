@@ -1,6 +1,6 @@
 # Learn Python Road Map
 
-https://pymentor.by
+https://pymentor.org
 
 ### Steps to build
 
